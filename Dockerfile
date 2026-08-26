@@ -1,4 +1,4 @@
-FROM python:3.12-alpine AS build
+FROM python:3.14-alpine AS build
 
 WORKDIR /workspace
 COPY requirements.txt .
