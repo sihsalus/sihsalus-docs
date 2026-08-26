@@ -37,3 +37,6 @@ mkdocs build --strict
 Use datos sintéticos en cualquier captura futura. La ausencia de datos reales
 debe verificarse antes de aprobar el pull request.
 
+Los borradores se publican con un aviso global inequívoco. Retire ese estado
+solo después de registrar la revisión funcional, clínica y de privacidad que
+corresponda; nunca complete fechas o aprobaciones que no hayan ocurrido.
