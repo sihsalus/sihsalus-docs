@@ -1,0 +1,17 @@
+:root {
+  --md-primary-fg-color: #2f7d78;
+  --md-primary-fg-color--light: #4f9994;
+  --md-primary-fg-color--dark: #205f5b;
+  --md-accent-fg-color: #2f7d78;
+}
+
+.md-typeset h1 {
+  font-weight: 500;
+}
+
+.help-status {
+  border-left: 0.25rem solid var(--md-primary-fg-color);
+  padding: 0.7rem 1rem;
+  background: color-mix(in srgb, var(--md-primary-fg-color) 8%, transparent);
+}
+
