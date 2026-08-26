@@ -1,8 +1,6 @@
 site_name: Ayuda de SIHSALUS
 site_description: Guías de uso, tutoriales y novedades de SIHSALUS
 site_author: SIHSALUS
-repo_url: https://github.com/sihsalus/sihsalus-docs
-edit_uri: edit/main/docs/
 copyright: SIHSALUS · Documentación de apoyo para usuarios
 strict: true
 use_directory_urls: true
@@ -20,7 +18,6 @@ theme:
     - navigation.top
     - search.highlight
     - search.suggest
-    - content.action.edit
 
 plugins:
   - search:
@@ -35,6 +32,9 @@ markdown_extensions:
 
 extra_css:
   - assets/stylesheets/extra.css
+
+extra:
+  generator: false
 
 validation:
   nav:
@@ -59,4 +59,3 @@ nav:
   - Novedades: novedades.md
   - Ayuda y soporte: soporte.md
   - Privacidad y uso seguro: privacidad.md
-
