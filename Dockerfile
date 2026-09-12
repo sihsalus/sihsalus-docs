@@ -9,7 +9,7 @@ COPY docs ./docs
 COPY overrides ./overrides
 RUN mkdocs build --strict --site-dir /site
 
-FROM nginx:1.28-alpine
+FROM nginx:1.31-alpine
 
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 COPY --from=build /site /usr/share/nginx/html
