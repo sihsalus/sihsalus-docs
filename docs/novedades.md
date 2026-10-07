@@ -34,3 +34,13 @@ permisos internos, identificadores técnicos ni incidentes de seguridad.
 Se creó el portal de ayuda de SIHSALUS con guías iniciales para identificación,
 citas, triaje, consulta externa, Farmacia y Laboratorio.
 
+## 7 de octubre de 2026 — guías CRED en revisión
+
+Se incorporaron el [manual de Crecimiento y desarrollo](guias/cred.md) y el
+[proceso de atención CRED](guias/proceso-cred.md). Explican el acceso desde
+Programas, el contexto neonatal, el selector de formularios y la comprobación
+del guardado. Incluyen ejemplos ficticios y límites de la verificación.
+
+Ambos documentos requieren revisión funcional, clínica y de privacidad. El
+manual identifica la diferencia observada en la hora de alta y la etiqueta de
+suplementación sin registros, pendientes de corrección y nueva comprobación.
