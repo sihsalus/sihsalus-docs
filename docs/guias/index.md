@@ -21,6 +21,8 @@ next_review_due: null
 - [Citas y llegada](citas-llegada.md)
 - [Triaje y colas](triaje-colas.md)
 - [Consulta externa](consulta-externa.md)
+- [Crecimiento y desarrollo](cred.md)
+- [Proceso de atención CRED](proceso-cred.md)
 
 ## Servicios de apoyo
 
@@ -29,4 +31,3 @@ next_review_due: null
 
 Si una opción no aparece o está deshabilitada, solicite ayuda al responsable de
 SIHSALUS de su establecimiento. No comparta datos de pacientes en la solicitud.
-

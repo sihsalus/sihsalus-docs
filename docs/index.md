@@ -21,6 +21,8 @@ Encuentre guías breves para realizar las tareas principales de SIHSALUS.
 - [Gestionar una cita y registrar la llegada](guias/citas-llegada.md)
 - [Realizar triaje y gestionar colas](guias/triaje-colas.md)
 - [Registrar una atención de consulta externa](guias/consulta-externa.md)
+- [Registrar y comprobar una atención CRED](guias/cred.md)
+- [Revisar el proceso de atención CRED](guias/proceso-cred.md)
 - [Atender una receta en Farmacia](guias/farmacia.md)
 - [Gestionar solicitudes de Laboratorio](guias/laboratorio.md)
 
@@ -32,4 +34,3 @@ Encuentre guías breves para realizar las tareas principales de SIHSALUS.
 
 Las opciones disponibles pueden variar según el perfil y el establecimiento
 asignados a su usuario.
-

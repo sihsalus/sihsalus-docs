@@ -27,3 +27,10 @@ Use Consulta externa para registrar la atención clínica de una consulta activa
 Las acciones visibles dependen de su perfil. No finalice la consulta mientras
 existan registros pendientes o un guardado de resultado incierto.
 
+## Atención de crecimiento y desarrollo
+
+Para una atención CRED, compruebe también la inscripción activa en **Control de
+Niño Sano** desde **Programas**. Use **Ir a** en su fila o el grupo **Curso de
+Vida del Niño** de la historia. Revise y guarde los formularios de la atención
+antes de finalizar la consulta. Consulte el [manual CRED](cred.md) para los
+pasos de acceso, registro y comprobación y sus limitaciones verificadas.
