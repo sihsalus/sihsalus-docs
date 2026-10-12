@@ -30,7 +30,9 @@ existan registros pendientes o un guardado de resultado incierto.
 ## Atención de crecimiento y desarrollo
 
 Para una atención CRED, compruebe también la inscripción activa en **Control de
-Niño Sano** desde **Programas**. Use **Ir a** en su fila o el grupo **Curso de
-Vida del Niño** de la historia. Revise y guarde los formularios de la atención
-antes de finalizar la consulta. Consulte el [manual CRED](cred.md) para los
+Niño Sano** desde **Programas**. Use **Ir a** en su fila o **Crecimiento y
+desarrollo** en el menú de la historia. Esta pantalla reúne siete pestañas;
+**Abrir formularios del control** permite acceder al registro. Revise y guarde
+los formularios de la atención antes de finalizar la consulta. Consulte el
+[manual de Crecimiento y desarrollo](cred.md) para los
 pasos de acceso, registro y comprobación y sus limitaciones verificadas.
