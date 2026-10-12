@@ -1,6 +1,6 @@
 ---
 title: Crecimiento y desarrollo
-description: Acceso, registro y comprobación de una atención CRED
+description: Uso de las pestañas de Crecimiento y desarrollo para registrar y revisar una atención
 audience:
   - personal-clinico
 area: crecimiento-y-desarrollo
@@ -15,9 +15,11 @@ next_review_due: null
 
 # Crecimiento y desarrollo
 
-Esta guía explica cómo registrar y revisar una atención en CRED. Describe las
-pantallas observadas el 7 de octubre de 2026 con un paciente ficticio. Está
-pendiente de revisión funcional, clínica y de privacidad.
+Esta guía explica cómo orientarse, registrar y revisar una atención en
+**Crecimiento y desarrollo**. La navegación se comprobó el 12 de octubre de
+2026 con un paciente ficticio. Las comprobaciones de guardado se describen en
+el [proceso de atención](proceso-cred.md#alcance-de-la-comprobacion-documental).
+Está pendiente de revisión funcional, clínica y de privacidad.
 
 ## Antes de registrar
 
@@ -36,8 +38,7 @@ pendiente de revisión funcional, clínica y de privacidad.
    inscripciones a programas** o **Agregar**. Seleccione el programa, compruebe
    la fecha y la ubicación de inscripción y pulse **Guardar y cerrar**.
 4. Compruebe que el programa aparezca como **Activo**. Use **Ir a** en esa fila
-   para abrir CRED. La inscripción también habilita el grupo **Curso de Vida
-   del Niño** en el menú de la historia.
+   o seleccione **Crecimiento y desarrollo** en el menú de la historia.
 
 No cree otra inscripción para sustituir una que todavía no aparece después de
 guardar. Recargue la historia y revise el resultado antes de repetir la acción.
@@ -46,25 +47,70 @@ guardar. Recargue la historia y revise el resultado antes de repetir la acción.
 
 *Ejemplo sintético de la inscripción activa y del acceso a CRED desde Programas.*
 
-## Orientarse en los paneles
+## Orientarse en las siete pestañas
 
-El grupo **Curso de Vida del Niño** reúne cinco entradas. La disponibilidad de
-sus acciones depende de la consulta, los registros y el perfil de atención.
+La pantalla reúne la atención del niño en siete pestañas. Las opciones visibles
+dependen de su perfil y de la inscripción al programa. Si una pestaña queda
+fuera de la vista, use las flechas de los extremos de la barra para encontrarla.
 
-| Entrada del menú | Pestañas que se pueden consultar |
+| Pestaña | Qué puede revisar |
 | --- | --- |
-| Curso de Vida del Niño | Signos vitales del recién nacido; Registro perinatal; Atención inmediata; Evaluación cefalocaudal; Alojamiento conjunto; Lactancia |
-| Control de Niño Sano | Seguimiento; Controles CRED; Desarrollo; Servicios adicionales |
-| Esquema de Vacunación Infantil | Calendario de vacunación; Reacciones Adversas |
-| Estimulación Temprana | Sesiones de estimulación; Seguimiento de estimulación; Consejería de estimulación |
-| Nutrición Infantil | Evaluación nutricional; Consejería alimentaria; Seguimiento nutricional |
+| Resumen | Vínculo con la madre, atenciones registradas y accesos a las otras secciones. |
+| Antecedentes y nacimiento | Antecedentes patológicos del menor, datos del nacimiento, embarazo y parto; acceso a Atención neonatal. |
+| Control y examen | Acceso a los formularios y vista de atenciones y controles. |
+| Crecimiento y nutrición | Curvas de crecimiento, evaluación nutricional, consejería, hemoglobina, suplementación y tamizajes. |
+| Desarrollo | Evaluaciones, sesiones y consejería de estimulación. |
+| Vacunación | Inmunizaciones y reacciones adversas. |
+| Seguimiento | Próximo control, acceso a citas y seguimiento nutricional y del desarrollo. |
 
-En la primera entrada, el encabezado del panel es **Atención Neonatal**. Las
-pestañas permiten consultar diferentes registros sin cambiar de paciente.
+**Abrir formularios del control** está en el encabezado y en **Control y
+examen**. **Consultas anteriores** permite revisar las consultas de la historia.
+Compruebe siempre la fecha del registro que abre.
+
+![Pantalla Crecimiento y desarrollo con sus pestañas y Vacunación seleccionada, sin registros de ejemplo](../assets/images/cred-pestanas-vacunacion.png)
+
+*Ejemplo sintético de la pantalla integrada. Un listado vacío indica que no hay
+registros visibles; no acredita que una vacuna se haya aplicado ni descartado.*
+
+### Revisar el vínculo con la madre
+
+En **Resumen**, revise **Madre vinculada**. Si aparece un enlace, permite abrir
+la historia de la persona vinculada para consultar sus propios registros.
+Compruebe su identidad antes de continuar. Los datos de la madre y los del niño
+pertenecen a historias distintas; no registre una evaluación materna en la
+historia del niño.
+
+Si aparece un error de carga, no lo interprete como ausencia de vínculo ni cree
+otra persona para resolverlo. Solicite ayuda al responsable del establecimiento
+para comprobar la relación registrada.
+
+![Pestaña Resumen con un vínculo entre dos personas ficticias y accesos a las secciones de atención](../assets/images/cred-resumen-madre.png)
+
+*El enlace corresponde a la madre ficticia del ejemplo. El historial del niño
+sigue siendo independiente de la historia de esa persona.*
+
+### Encontrar antropometría y balance de líquidos
+
+1. Abra **Antecedentes y nacimiento → Ver atención neonatal**.
+2. Seleccione **Signos vitales del recién nacido**.
+3. Revise **Antropometría**, con la fecha, el peso, la talla y los perímetros
+   registrados. Use **Agregar** cuando corresponda y su perfil lo permita.
+4. En la misma pestaña se encuentra **Balance de líquidos del recién nacido**.
+   En la vista comprobada este panel permite consultar datos y no ofrece una
+   acción de registro. No sustituya ese registro por un dato antropométrico.
+
+Para volver, seleccione **Crecimiento y desarrollo** en el menú de la historia.
+Las curvas también se consultan desde **Crecimiento y nutrición**. Revise las
+mediciones y su fecha antes de interpretar una gráfica.
+
+![Atención neonatal, con balance de líquidos sin registros y una tabla de antropometría con datos ficticios](../assets/images/cred-neonatal-mediciones.png)
+
+*Ubicación de los dos paneles en un ejemplo sintético. Los valores ilustran la
+pantalla; no son metas de crecimiento ni recomendaciones clínicas.*
 
 ## Preparar el primer control del recién nacido
 
-1. Abra **Curso de Vida del Niño → Registro perinatal**.
+1. Abra **Crecimiento y desarrollo → Antecedentes y nacimiento**.
 2. Revise **Embarazo y Parto**. Para crear el registro, pulse **Registrar
    embarazo y parto**; para revisar uno existente, use **Editar**.
 3. Compruebe el **Lugar del Parto** en el registro correspondiente.
@@ -87,8 +133,8 @@ cuenta ni dé por validado el registro.
 
 ## Registrar un control CRED
 
-1. Abra **Control de Niño Sano** y consulte **Seguimiento** y **Controles CRED**.
-2. Abra la herramienta **Formularios Crecimiento y Desarrollo** de la historia.
+1. Abra **Crecimiento y desarrollo** y revise **Seguimiento** y **Control y examen**.
+2. Pulse **Abrir formularios del control**.
 3. Revise la fecha y la hora de inicio, la fecha del último control, el número
    de control y el grupo etario calculados por el sistema.
 4. Si los datos son correctos y no hay avisos pendientes, pulse **Empezar Control**.
@@ -102,8 +148,8 @@ cuenta ni dé por validado el registro.
    que todos deban completarse en cada atención.
 9. Después de comprobar los formularios, use **Guardar y Firmar** para terminar
    el selector. Ese rótulo por sí solo no acredita una firma digital certificada.
-10. Regrese a **Controles CRED**, recargue la historia y compruebe que el control
-    y sus registros continúen disponibles antes de finalizar la consulta.
+10. Regrese a **Control y examen** y **Resumen**, recargue la historia y compruebe
+    que el control y sus registros continúen disponibles antes de finalizar la consulta.
 
 ![Fragmento del examen físico recargado después de editarlo con texto ficticio](../assets/images/cred-examen-editado.png)
 
@@ -117,9 +163,11 @@ Abra el registro existente mediante **Editar** o desde el formulario del mismo
 control. Revise su fecha y contexto antes de cambiarlo. Guarde la corrección,
 vuelva a abrir el registro y compruebe que conserva los demás campos.
 
-En la prueba documental se creó y editó un examen físico, se recargó la historia
-y se comprobó la conservación del registro sin crear otro encuentro. Esto no
-acredita el funcionamiento de todos los formularios ni de todos los perfiles.
+En la prueba documental del 7 de octubre se creó y editó un examen físico, se
+recargó la historia y se comprobó la conservación del registro sin crear otro
+encuentro. El 12 de octubre se comprobó también el guardado de un antecedente
+patológico y su lectura tras recargar, con un perfil de atención. Estas pruebas
+no acreditan el funcionamiento de todos los formularios ni de todos los perfiles.
 
 **Cancelar** dentro de un formulario descarta sus cambios sin guardar.
 Cancelar o cerrar el selector después de haber guardado un formulario no debe
@@ -127,11 +175,11 @@ interpretarse como eliminación de ese registro: revise la historia.
 
 ## Seguimiento y problemas de registro
 
-- Consulte el historial y la propuesta del próximo control. Compruebe cualquier
-  cita en el flujo de citas del establecimiento; ver una fecha propuesta no
+- En **Seguimiento**, consulte el historial y la propuesta del próximo control.
+  Compruebe cualquier cita en el flujo de citas del establecimiento; ver una fecha propuesta no
   demuestra que una cita haya sido registrada.
 - Revise la evidencia de tamizajes y suplementación en sus registros. En la
-  prueba, un panel vacío de suplementación mostró **En curso**; esa etiqueta
+  prueba, un panel sin entregas mostró **Entregas en curso**; esa etiqueta
   requiere revisión y no acredita una prescripción ni una entrega.
 - Si el guardado falla o queda incierto, conserve el formulario y revise el
   historial antes de volver a registrar. No duplique la atención.
